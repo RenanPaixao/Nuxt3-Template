@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from 'nuxt'
-import { fileURLToPath } from 'url'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  // https://v3.nuxtjs.org/getting-started/assets/
   vite: {
     css: {
       preprocessorOptions: {
@@ -11,8 +11,5 @@ export default defineNuxtConfig({
         }
       }
     }
-  },
-  alias: {
-    '@': fileURLToPath(new URL('./', import.meta.url))
   }
 })

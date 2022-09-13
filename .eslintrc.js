@@ -1,6 +1,7 @@
 
 module.exports = {
   root: true,
+  // https://www.npmjs.com/package/vue-eslint-parser
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -10,6 +11,7 @@ module.exports = {
   extends: [
     '@nuxtjs/eslint-config-typescript'
   ],
+  // https://eslint.org/docs/latest/rules/
   rules: {
     'padded-blocks': ['warn', 'never'],
     'space-before-function-paren': ['warn', 'never'],

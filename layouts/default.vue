@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      Layout
+      Example Layout
     </h1>
     <main>
       <slot />
